@@ -7,61 +7,33 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <title>Portofolio</title>
     <style>
+        body {
+            background-color: #f8f9fa;
+        }
         .team-member {
-            transition: transform 0.3s;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            padding: 20px;
+            background: white;
         }
         .team-member:hover {
-            transform: scale(1.1);
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 123, 255, 0.5);
+        }
+        header {
+            background: linear-gradient(135deg, #007bff, #00c6ff);
         }
     </style>
 </head>
 <body>
 
-    <header class="bg-primary text-white text-center py-5">
+    <header class="text-white text-center py-5">
         <h1>Portofolio Kami</h1>
         <p>Selamat datang di portofolio kami yang menakjubkan!</p>
     </header>
 
     <section class="container my-5">
-        <h2 class="text-center">Anggota Tim</h2>
+        <h2 class="text-center mb-4">Anggota Tim</h2>
         <div class="row">
-            <div class="col-md-3 text-center mb-4">
-                <div class="team-member">
-                    <img src="https://via.placeholder.com/150/FF5733/FFFFFF?text=Jenal" alt="Jenal" class="rounded-circle mb-2">
-                    <h5>Jenal</h5>
-                    <p>Desainer Grafis</p>
-                </div>
-            </div>
-            <div class="col-md-3 text-center mb-4">
-                <div class="team-member">
-                    <img src="https://via.placeholder.com/150/33FF57/FFFFFF?text=Virgy" alt="Virgy" class="rounded-circle mb-2">
-                    <h5>Virgy</h5>
-                    <p>Pengembang Web</p>
-                </div>
-            </div>
-            <div class="col-md-3 text-center mb-4">
-                <div class="team-member">
-                    <img src="https://via.placeholder.com/150/3357FF/FFFFFF?text=Dilva" alt="Dilva" class="rounded-circle mb-2">
-                    <h5>Dilva</h5>
-                    <p>Spesialis SEO</p>
-                </div>
-            </div>
-            <div class="col-md-3 text-center mb-4">
-                <div class="team-member">
-                    <img src="https://via.placeholder.com/150/FFC300/FFFFFF?text=Salman" alt="Salman" class="rounded-circle mb-2">
-                    <h5>Salman</h5>
-                    <p>Manajer Proyek</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 Portofolio Kami</p>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+           
